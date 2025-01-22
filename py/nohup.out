@@ -1,0 +1,44 @@
+
+Bad key "text.kerning_factor" on line 4 in
+/Users/qpasa/opt/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test_patch.mplstyle.
+You probably need to get an updated matplotlibrc file from
+http://github.com/matplotlib/matplotlib/blob/master/matplotlibrc.template
+or from the matplotlib source distribution
+  0%|          | 0/30 [00:00<?, ?it/s]  0%|          | 0/30 [00:00<?, ?it/s]
+/Users/qpasa/.local/lib/python3.7/site-packages/pyfits/__init__.py:22: PyFITSDeprecationWarning: PyFITS is deprecated, please use astropy.io.fits
+  PyFITSDeprecationWarning)  # noqa
+
+Traceback (most recent call last):
+  File "calc_effSel.py", line 68, in <module>
+    isorec = utils.generate_lowfeh_isogrid()
+  File "/Users/qpasa/Desktop/halo-density/py/utils.py", line 65, in generate_lowfeh_isogrid
+    alliso = np.genfromtxt(file, dtype=None, names=True, skip_header=11)
+  File "/Users/qpasa/opt/anaconda3/lib/python3.7/site-packages/numpy/lib/npyio.py", line 1759, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/Users/qpasa/opt/anaconda3/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 269, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/Users/qpasa/opt/anaconda3/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 623, in open
+    raise IOError("%s not found." % path)
+OSError: /Users/qpasa/Packages/isodist/parsec1.2-2mass-spitzer-wise-old/parsec1.2-2mass-spitzer-wise-old-Z-0.0001.dat.gz not found.
+
+Bad key "text.kerning_factor" on line 4 in
+/Users/qpasa/opt/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test_patch.mplstyle.
+You probably need to get an updated matplotlibrc file from
+http://github.com/matplotlib/matplotlib/blob/master/matplotlibrc.template
+or from the matplotlib source distribution
+  0%|          | 0/30 [00:00<?, ?it/s]  0%|          | 0/30 [00:00<?, ?it/s]
+/Users/qpasa/.local/lib/python3.7/site-packages/pyfits/__init__.py:22: PyFITSDeprecationWarning: PyFITS is deprecated, please use astropy.io.fits
+  PyFITSDeprecationWarning)  # noqa
+
+Traceback (most recent call last):
+  File "calc_effSel.py", line 68, in <module>
+    isorec = utils.generate_lowfeh_isogrid()
+  File "/Users/qpasa/Desktop/halo-density/py/utils.py", line 65, in generate_lowfeh_isogrid
+    alliso = np.genfromtxt(file, dtype=None, names=True, skip_header=11)
+  File "/Users/qpasa/opt/anaconda3/lib/python3.7/site-packages/numpy/lib/npyio.py", line 1759, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/Users/qpasa/opt/anaconda3/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 269, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/Users/qpasa/opt/anaconda3/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 623, in open
+    raise IOError("%s not found." % path)
+OSError: /Users/qpasa/Packages/isodist/parsec1.2-2mass-spitzer-wise-old/parsec1.2-2mass-spitzer-wise-old-Z-0.0001.dat.gz not found.
